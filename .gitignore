@@ -109,6 +109,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+bot_by_gpt/.env
+
+# Tutorials
+bot_by_gpt/tutorial.txt
 
 # Spyder project settings
 .spyderproject
