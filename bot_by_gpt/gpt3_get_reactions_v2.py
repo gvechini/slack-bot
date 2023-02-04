@@ -34,3 +34,7 @@ class SlackBot:
 if __name__ == "__main__":
     bot = SlackBot(os.environ["SLACK_BOT_TOKEN"])
     bot.listen_for_reactions("General")
+
+## In this version of the code, the text of the message that got a reaction is logged along with the reaction itself.
+### This should give you an idea of how to access the message metadata in the Slack API.
+## You can use this information to identify the specific message that got a reaction, and take any necessary actions in response.

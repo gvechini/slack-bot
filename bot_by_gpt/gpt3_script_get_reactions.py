@@ -32,3 +32,7 @@ class SlackBot:
 if __name__ == "__main__":
     bot = SlackBot(os.environ["SLACK_BOT_TOKEN"])
     bot.listen_for_reactions("general")
+
+# This example uses the requests library to make API calls to Slack, and the os library to get the Slack bot token from an environment variable.
+# The listen_for_reactions method continuously listens for new reactions in the specified channel, and the get_reactions method gets the latest reactions for a given message.
+# In this example, the bot prints the name of each new reaction as it is received. You can modify the code to suit your needs and add more functionality as required.
