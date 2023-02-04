@@ -1,0 +1,14 @@
+#######
+# Como fazer um bot no slack.
+#######
+
+1. Dado que tenha um workspace criado, ir em Create App e nomear seu serviço;
+2. Na página de app do Slack, ir no seu bot e na opção a esquerda 'OAuth & Permissions'
+2.1. Adicionar alguma, primeira, função em 'Scopes'. Pode ser a 'chat:read';
+2.2. Clicar em 'Install to workspace';
+2.2.1. Pronto, agora vc pode salvar a OAuth Token;
+
+3. Instalar pacotes necessários com
+	pip install -r requeriments.txt
+
+4. Seguir notebook cell by cell

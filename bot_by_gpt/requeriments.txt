@@ -1,0 +1,6 @@
+## set ambient
+
+python-dotenv
+flask
+slack_sdk
+slackclient
