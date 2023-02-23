@@ -1,2 +1,1 @@
 # slack-bot
-POO Study
